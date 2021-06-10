@@ -8,6 +8,7 @@ LABEL org.opencontainers.image.title="Hello Docker Learners!" \
 
 # Create directory in container image for app code
 RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/app1
 
 # Copy app code (.) to /usr/src/app in container image
 COPY . /usr/src/app
